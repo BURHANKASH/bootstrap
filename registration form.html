@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <style>
+        *{
+            font-size:20PX;
+        /*   background-image: url(https://th.bing.com/th/id/R.937c9a9f0ea9c221e2c3897ae9b5c2a6?rik=V%2flwwxpwXfob1Q&riu=http%3a%2f%2fgstsamadhaan.com%2fwp-content%2fuploads%2f2017%2f08%2fGST-Registration-page-background-2.jpg&ehk=YI75giA8xBHTLkL45U%2f8fCfNX8eDP5cdo%2fgc7845r3U%3d&risl=&pid=ImgRaw&r=0);
+      color: white;*/
+      background-color: rgb(237, 233, 227);
+      
+        }
+.form{
+    margin-left: 20px;
+}
+h1{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    text-align: center;
+    margin: 0px;
+}
+.RG{
+    font-size:20PX;
+    margin: 0PX;
+}
+.RED{ 
+background-color:red;
+}
+.blue{
+background-color: aquamarine;
+}   
+.personal{
+color: rgb(133, 127, 255);
+}
+img{
+   padding-left: 500px;
+   margin-top: 10px;
+}
+h2{
+    margin: 0px;
+    font-size: small;
+}
+ </style>
+</head>
+<body>
+    <div class="personal">
+   
+        <h2>Name:-Burhan Ud Din Malik</h2>
+        <h2>USN:-1MJ20CS046</h2>
+        
+        <h2>Branch:-CSE</h2>
+        <h2>Section:-5A</h2>
+    </div>
+    <h1>Registration Form</h1>
+   <img src="https://www.bing.com/th?id=OIP.rRpYzKeoa1vFn4-PWnvjfAHaDj&w=349&h=167&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2" alt="sorry">
+    <hr>
+    <br>
+   <div class="form"><form>
+    <label for="name" >Enter your name:</label>
+       <input type="text" required >
+       <br></br>
+       Enter your Email:
+       <input type="email" placeholder="xyz@gmail.com">
+       <br><br>
+       Enter your contact.no:
+       <input type="number" placeholder="1234567890">
+       <br><br>
+       Enter your gender:<BR><br>
+       <input type="radio" name="gender" required>Male
+       <input type="radio" name="gender">Female
+       <input type="radio" name="gender">Others
+       <br><br>
+       Which of the following accounts do you have ?<BR><BR>
+        <DIV class="RG">
+       <input type="checkbox" name="q">Gmail
+       <input type="checkbox" name="q">Facebook
+       <input type="checkbox" name="q">Twitter
+       <input type="checkbox" name="q">Google
+        </DIV>
+       
+<br><br>
+Select the option:
+<select name="City">
+    <option value="Kashmir">Kashmir</option>
+    <option value="Banglore">Banglore</option>
+    <option value="Mumbai">Mumbai</1option>
+    <option value="Gujrat">Gujrat</option>
+</select>
+<br><br>
+Date Of Birth:
+<input type="date">
+<br><br>
+Enter your password:
+<input type="password" required >
+<br><br>
+Any Suggestion?
+<br><br>
+<textarea rows="4" cols="50"></textarea>
+<br></br>
+<label for="text">Click Here:</label>
+<input class="blue" type="submit" value="SUBMIT">
+<input  class="RED" type="reset" value="RESET">
+<br><br>
+</div>
+   </form> 
+</body>
+</html>
